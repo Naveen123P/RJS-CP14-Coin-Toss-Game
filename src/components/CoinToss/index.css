@@ -1,0 +1,40 @@
+/* Write your CSS here */
+.bg-container1 {
+  height: 100vh;
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bg-container2 {
+  border-radius: 5px;
+  background-color: aliceblue;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+* {
+  font-family: 'Roboto';
+  text-align: center;
+}
+.heading {
+  color: #a35200;
+  font-size: larger;
+  font-weight: 400;
+}
+.para {
+  font-size: small;
+  font-weight: 300;
+}
+.coin-img {
+  height: 100px;
+  width: 100px;
+}
+button {
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #e2a139;
+  color: #a35200;
+}
